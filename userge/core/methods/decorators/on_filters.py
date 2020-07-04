@@ -20,7 +20,7 @@ class OnFilters(RawDecorator):  # pylint: disable=missing-class-docstring
     def on_filters(self,
                    filters: Filters,
                    group: int = 0,
-                   allow_via_bot: bool = True) -> RawDecorator._PYRORETTYPE:
+                   allow_via_bot: bool = False) -> RawDecorator._PYRORETTYPE:
         """\nDecorator for handling filters
 
         Parameters:
